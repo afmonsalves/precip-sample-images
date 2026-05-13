@@ -1,162 +1,202 @@
 const allImages = [
   {
-    "id": "7044_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7044_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
+    "id": "6155_2A-CLIM.F16.SSMIS.GPROF2021v1.20070505-S010606-E024801.018284.V07A_bad_lines_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6155_2A-CLIM.F16.SSMIS.GPROF2021v1.20070505-S010606-E024801.018284.V07A_bad_lines_intensity.HDF5.npz.png"
   },
   {
-    "id": "6398_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6398_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
+    "id": "6245_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6245_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
   },
   {
-    "id": "6785_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6785_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz.png"
+    "id": "6338_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6338_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
   },
   {
-    "id": "6340_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6340_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
+    "id": "6330_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6330_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
   },
   {
-    "id": "6931_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6931_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
+    "id": "6913_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6913_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
   },
   {
-    "id": "6406_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6406_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
+    "id": "6739_2A-CLIM.F17.SSMIS.GPROF2021v1.20150805-S233836-E012030.045156.V07A_bad_bands.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6739_2A-CLIM.F17.SSMIS.GPROF2021v1.20150805-S233836-E012030.045156.V07A_bad_bands.HDF5.npz.png"
   },
   {
-    "id": "7080_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7080_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
+    "id": "6961_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6961_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz.png"
   },
   {
-    "id": "6765_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S012031-E030224.045157.V07A_bad_bands.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6765_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S012031-E030224.045157.V07A_bad_bands.HDF5.npz.png"
+    "id": "6942_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6942_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
   },
   {
-    "id": "6368_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6368_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
+    "id": "6643_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S183226-E201420.067950.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6643_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S183226-E201420.067950.V07A_bad_bands_intensity.HDF5.npz.png"
   },
   {
-    "id": "6798_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6798_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz.png"
+    "id": "6610_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S165032-E183225.067949.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6610_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S165032-E183225.067949.V07A_bad_bands_intensity.HDF5.npz.png"
   },
   {
-    "id": "6595_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S150837-E165031.067948.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6595_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S150837-E165031.067948.V07A_bad_bands_intensity.HDF5.npz.png"
+    "id": "6326_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6326_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
   },
   {
-    "id": "7071_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7071_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
+    "id": "6614_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S165032-E183225.067949.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6614_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S165032-E183225.067949.V07A_bad_bands_intensity.HDF5.npz.png"
   },
   {
-    "id": "6793_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6793_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz.png"
+    "id": "6788_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6788_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz.png"
   },
   {
-    "id": "6320_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6320_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
+    "id": "7097_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7097_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
   },
   {
-    "id": "6806_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6806_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz.png"
+    "id": "7124_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7124_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
   },
   {
-    "id": "6152_2A-CLIM.F16.SSMIS.GPROF2021v1.20070505-S010606-E024801.018284.V07A_bad_lines_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6152_2A-CLIM.F16.SSMIS.GPROF2021v1.20070505-S010606-E024801.018284.V07A_bad_lines_intensity.HDF5.npz.png"
+    "id": "7017_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7017_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
   },
   {
-    "id": "6221_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6221_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
+    "id": "6872_2A-CLIM.F18.SSMIS.GPROF2021v1.20120214-S140703-E154902.011986.V07A_bad_lines_spots.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6872_2A-CLIM.F18.SSMIS.GPROF2021v1.20120214-S140703-E154902.011986.V07A_bad_lines_spots.HDF5.npz.png"
   },
   {
-    "id": "7098_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7098_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6298_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6298_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6966_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6966_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "6150_2A-CLIM.F16.SSMIS.GPROF2021v1.20070505-S010606-E024801.018284.V07A_bad_lines_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6150_2A-CLIM.F16.SSMIS.GPROF2021v1.20070505-S010606-E024801.018284.V07A_bad_lines_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "7003_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7003_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "6291_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6291_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6979_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6979_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "6304_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6304_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6914_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6914_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
-  },
-  {
-    "id": "6953_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6953_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
-  },
-  {
-    "id": "6674_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6674_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "6995_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6995_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "6272_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6272_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6300_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6300_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6664_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6664_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "6464_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S100253-E114446.067945.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6464_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S100253-E114446.067945.V07A_bad_bands_intensity.HDF5.npz.png"
-  },
-  {
-    "id": "7073_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7073_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6302_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6302_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6762_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S012031-E030224.045157.V07A_bad_bands.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6762_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S012031-E030224.045157.V07A_bad_bands.HDF5.npz.png"
-  },
-  {
-    "id": "7033_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7033_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
-  },
-  {
-    "id": "6236_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6236_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
+    "id": "6908_2A-CLIM.F18.SSMIS.GPROF2021v1.20120214-S154903-E173101.011987.V07A_bad_spots.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6908_2A-CLIM.F18.SSMIS.GPROF2021v1.20120214-S154903-E173101.011987.V07A_bad_spots.HDF5.npz.png"
   },
   {
     "id": "6239_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
     "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6239_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
   },
   {
-    "id": "6707_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S233811-E012004.067953.V07A_bad_bands_intensity.HDF5.npz",
-    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6707_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S233811-E012004.067953.V07A_bad_bands_intensity.HDF5.npz.png"
+    "id": "6951_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6951_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
+  },
+  {
+    "id": "6938_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6938_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
+  },
+  {
+    "id": "6768_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S030225-E044418.045158.V07A_bad_bands.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6768_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S030225-E044418.045158.V07A_bad_bands.HDF5.npz.png"
+  },
+  {
+    "id": "6658_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6658_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "6243_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6243_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
+  },
+  {
+    "id": "6236_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6236_2A-CLIM.F16.SSMIS.GPROF2021v1.20110329-S205130-E223325.038410.V07A_bad_lines.HDF5.npz.png"
+  },
+  {
+    "id": "6547_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S150837-E165031.067948.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6547_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S150837-E165031.067948.V07A_bad_bands_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "6764_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S012031-E030224.045157.V07A_bad_bands.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6764_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S012031-E030224.045157.V07A_bad_bands.HDF5.npz.png"
+  },
+  {
+    "id": "7034_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7034_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
+  },
+  {
+    "id": "6965_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6965_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "7033_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7033_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
+  },
+  {
+    "id": "6827_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S095002-E113155.045162.V07A_bad_landmask_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6827_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S095002-E113155.045162.V07A_bad_landmask_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "6966_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6966_2A.F18.SSMIS.GPROF2021v1.20240605-S152508-E170700.075475.V07B_bad_smooth_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "6952_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6952_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
+  },
+  {
+    "id": "6373_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6373_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S082058-E100252.067944.V07A_bad_bands_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "6674_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6674_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S201421-E215615.067951.V07A_bad_bands_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "6954_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6954_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
+  },
+  {
+    "id": "7049_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/7049_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
+  },
+  {
+    "id": "6783_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6783_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S044419-E062612.045159.V07A_bad_bands.HDF5.npz.png"
+  },
+  {
+    "id": "6767_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S030225-E044418.045158.V07A_bad_bands.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6767_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S030225-E044418.045158.V07A_bad_bands.HDF5.npz.png"
+  },
+  {
+    "id": "6529_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S100253-E114446.067945.V07A_bad_bands_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/IDK_samples/6529_2A-CLIM.F16.SSMIS.GPROF2021v1.20161218-S100253-E114446.067945.V07A_bad_bands_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "reg0_2A-CLIM.F16.SSMIS.GPROF2021v1.20150102-S181242-E195436.057833.V07A.HDF5",
+    "url": "https://afmonsalves.github.io/precip-sample-images/regular_samples/reg0_2A-CLIM.F16.SSMIS.GPROF2021v1.20150102-S181242-E195436.057833.V07A.HDF5.png"
+  },
+  {
+    "id": "reg10_2A-CLIM.F16.SSMIS.GPROF2021v1.20150102-S181242-E195436.057833.V07A.HDF5",
+    "url": "https://afmonsalves.github.io/precip-sample-images/regular_samples/reg10_2A-CLIM.F16.SSMIS.GPROF2021v1.20150102-S181242-E195436.057833.V07A.HDF5.png"
+  },
+  {
+    "id": "reg514_2A-CLIM.F16.SSMIS.GPROF2021v1.20150114-S153451-E171645.058001.V07A.HDF5",
+    "url": "https://afmonsalves.github.io/precip-sample-images/regular_samples/reg514_2A-CLIM.F16.SSMIS.GPROF2021v1.20150114-S153451-E171645.058001.V07A.HDF5.png"
+  },
+  {
+    "id": "reg519_2A-CLIM.F16.SSMIS.GPROF2021v1.20150114-S153451-E171645.058001.V07A.HDF5",
+    "url": "https://afmonsalves.github.io/precip-sample-images/regular_samples/reg519_2A-CLIM.F16.SSMIS.GPROF2021v1.20150114-S153451-E171645.058001.V07A.HDF5.png"
+  },
+  {
+    "id": "reg6_2A-CLIM.F16.SSMIS.GPROF2021v1.20150102-S181242-E195436.057833.V07A.HDF5",
+    "url": "https://afmonsalves.github.io/precip-sample-images/regular_samples/reg6_2A-CLIM.F16.SSMIS.GPROF2021v1.20150102-S181242-E195436.057833.V07A.HDF5.png"
+  },
+  {
+    "id": "landmask312_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S095002-E113155.045162.V07A_bad_landmask_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/artifact_samples/landmask312_2A-CLIM.F17.SSMIS.GPROF2021v1.20150806-S095002-E113155.045162.V07A_bad_landmask_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "lines756_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/artifact_samples/lines756_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
+  },
+  {
+    "id": "smooth758_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/artifact_samples/smooth758_2A.F17.SSMIS.GPROF2021v1.20250514-S174641-E192830.095608.V07B_bad_intensity_landmask.HDF5.npz.png"
+  },
+  {
+    "id": "smooth9_2A-CLIM.F16.SSMIS.GPROF2021v1.20060907-S095546-E113741.014899.V07A_bad_lines_intensity.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/artifact_samples/smooth9_2A-CLIM.F16.SSMIS.GPROF2021v1.20060907-S095546-E113741.014899.V07A_bad_lines_intensity.HDF5.npz.png"
+  },
+  {
+    "id": "spots742_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz",
+    "url": "https://afmonsalves.github.io/precip-sample-images/artifact_samples/spots742_2A.F18.SSMIS.GPROF2021v1.20240605-S170701-E184853.075476.V07B_bad_smooth_intensity_lines.HDF5.npz.png"
   }
 ];
